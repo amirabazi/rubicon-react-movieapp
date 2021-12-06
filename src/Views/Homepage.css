@@ -1,0 +1,63 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    padding:5rem 10rem;
+    
+}
+
+.navigate_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding:0.3rem 0.8rem;
+    margin-right:  0.5rem;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: .25rem;
+    color: #FFF;
+    font-weight:bolder;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.btn:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+
+.homepage__form{
+    margin-top: .5rem;
+}
+
+.search{
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.homepage__content{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movies__page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.tvshows__page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

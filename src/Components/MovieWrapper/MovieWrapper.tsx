@@ -47,6 +47,7 @@ function MovieWrapper({ image, title, vote_average, overview, apiKey, id, }: IPr
             .then((res) => {
                 setVideoFetch(res.data.results[0].key)
             }).catch((error) => {
+                console.log(error);
             })
     }
     return (

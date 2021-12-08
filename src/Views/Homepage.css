@@ -31,6 +31,11 @@
     transform: scale(1.01);
 }
 
+.btn:focus{
+    background: #30b34c;  /* fallback for old browsers */
+    
+}
+
 .homepage__form{
     margin-top: .5rem;
 }
